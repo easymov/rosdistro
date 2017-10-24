@@ -1,3 +1,11 @@
+zeroconf:
+  ubuntu:
+    pip:
+      packages: [zeroconf]
+rom:
+  ubuntu:
+    pip:
+      packages: [rom]
 gunicorn:
   fedora: [python-gunicorn]
   ubuntu: [gunicorn]
