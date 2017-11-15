@@ -2689,6 +2689,19 @@ python-responses-pip:
   ubuntu:
     pip:
       packages: [responses]
+python-robohash:
+  debian:
+    pip:
+      packages: [robohash]
+  fedora:
+    pip:
+      packages: [robohash]
+  osx:
+    pip:
+      packages: [robohash]
+  ubuntu:
+    pip:
+      packages: [robohash]
 python-rom:
   debian:
     pip:
