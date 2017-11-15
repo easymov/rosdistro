@@ -2689,6 +2689,19 @@ python-responses-pip:
   ubuntu:
     pip:
       packages: [responses]
+python-rom:
+  debian:
+    pip:
+      packages: [rom]
+  fedora:
+    pip:
+      packages: [rom]
+  osx:
+    pip:
+      packages: [rom]
+  ubuntu:
+    pip:
+      packages: [rom]
 python-rosdep:
   arch: [python2-rosdep]
   debian: [python-rosdep]
@@ -3857,6 +3870,10 @@ python-zbar:
   fedora: [zbar-pygtk]
   gentoo: ['media-gfx/zbar[python]']
   ubuntu: [python-zbar]
+python-zeroconf:
+  debian: [python-zeroconf]
+  fedora: [python-zeroconf]
+  ubuntu: [python-zeroconf]
 python-zmq:
   arch: [python2-pyzmq]
   debian: [python-zmq]
